@@ -1,2 +1,4 @@
 # dnsdist-docker
-Docker dnsdist with DoH,DoT support
+
+Docker dnsdist image with DNS over HTTPS and DNS over TLS support.
+
