@@ -2,9 +2,7 @@
 
 Docker dnsdist image with DNS over HTTPS and DNS over TLS support.
 
-Since we only use it on Intel and AMD servers the image is amd64 only!
-
-This docker file was forked from [tcely](https://github.com/tcely/dockerhub-powerdns/tree/master/dnsdist)  and modified by zerologdns. 
+This image was forked from [tcely](https://github.com/tcely/dockerhub-powerdns/tree/master/dnsdist) and modified by ZeroLogDNS to include DNS over HTTPS support.
 
 ## docker compose 
 
