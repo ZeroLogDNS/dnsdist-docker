@@ -11,7 +11,7 @@ version: '3'
 services:
   dnsdist:
     hostname: dnsdist
-    image: darkstreet00/dnsdist-docker
+    image: darkstreet00/dnsdist-docker:latest
     restart: unless-stopped
     tty: true
     stdin_open: true
