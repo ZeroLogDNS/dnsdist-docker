@@ -31,9 +31,9 @@ RUN apk --update upgrade && \
 FROM alpine
 
 RUN apk --update upgrade && \
-    apk add ca-certificates curl less mdocml \
-        openssl libsodium lua net-snmp protobuf \
-        libedit re2 h2o && \
+    apk add ca-certificates curl less \
+        openssl libsodium lua5.1 lua5.1-libs net-snmp protobuf \
+        libedit re2 h2o mandoc man-pages mandoc-apropos less-doc && \
     rm -rf /var/cache/apk/*
 
 ENV PAGER less
